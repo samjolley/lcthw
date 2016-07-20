@@ -1,8 +1,8 @@
 filename = ARGV.first
 
-puts "We're going to erase #{filename}"
-puts "If you don't want that, hit CTRL-C (^C)."
-puts "If you do want that, hit RETURN."
+puts """We're going to erase #{filename}
+If you don't want that, hit CTRL-C (^C).
+If you do want that, hit RETURN."""
 
 $stdin.gets
 
@@ -23,12 +23,9 @@ line3 = $stdin.gets.chomp
 
 puts "I'm going to write these to the file."
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+# Totally had to copy the solution from from here: https://github.com/javierjulio/learning-ruby-the-hard-way/blob/master/ex16.rb
+# Looks like I need to study strings, formats, and escapes a bit more
+target.write("#{line1}\n#{line2}\n#{line3}\n")
 
 puts "And finally we close it."
 target.close
