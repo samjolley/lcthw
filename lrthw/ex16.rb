@@ -20,7 +20,7 @@ print "line 3: "; line3 = $stdin.gets.chomp
 
 puts "I'm going to write these to the file."
 
-# Totally had to copy the solution from from here: https://github.com/javierjulio/learning-ruby-the-hard-way/blob/master/ex16.rb
+# Totally had to copy the solution from here: https://github.com/javierjulio/learning-ruby-the-hard-way/blob/master/ex16.rb
 # Looks like I need to study strings, formats, and escapes a bit more
 target.write("#{line1}\n#{line2}\n#{line3}\n")
 
