@@ -7,7 +7,7 @@
 # ex20.rb:12:in `print_a_line': undefined method `chomp' for nil:NilClass (NoMethodError)
 #  from ex20.rb:28:in `<main>'
 
-# Requires a CLI input of something like "$ ruby ex20.rb test.txt"
+# Requires a CLI input of something like "$ ruby ex20.rb test.txt" to start
 input_file = ARGV.first
 
 # Add function to print the whole txt file
@@ -43,14 +43,14 @@ rewind(current_file)
 # Simple message to user
 puts "Let's print three lines:"
 
-# Print the line number on each line, starting with 1
+# Print the line number of the file on each line, starting with 1
 current_line = 1
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current_line = 1
 
 # Code to print the next line number
 current_line = current_line + 1
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current line = 2
 
 # Code to print the next line number
 current_line = current_line + 1
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current line = 3
