@@ -1,12 +1,3 @@
-# Make sure there is content in your test txt file. Otherwise you may get an error like this: 
-# SamMBA:lrthw samjolley$ ruby ex20.rb test.txt
-# First let's print the whole file:
-#
-# Now let's rewind, kind of like a tape.
-# Let's print three lines:
-# ex20.rb:12:in `print_a_line': undefined method `chomp' for nil:NilClass (NoMethodError)
-#  from ex20.rb:28:in `<main>'
-
 input_file = ARGV.first
 
 def print_all(f)
