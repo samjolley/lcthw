@@ -48,9 +48,9 @@ current_line = 1
 print_a_line(current_line, current_file) # current_line = 1
 
 # Code to print the next line number
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file) # current line = 2
 
 # Code to print the next line number
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file) # current line = 3
