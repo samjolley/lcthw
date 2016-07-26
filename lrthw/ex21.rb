@@ -4,8 +4,8 @@ def add(a, b)
 end
 
 def subtract(a, b)
-  puts "SUBTRACTING #{a} = #{b}"
-  return a -b
+  puts "SUBTRACTING #{a} - #{b}"
+  return a - b
 end
 
 def multiply(a, b)
@@ -15,7 +15,7 @@ end
 
 def divide(a, b)
   puts "DIVIDING #{a} / #{b}"
-  returns a / b
+  return a / b
 end
 
 puts "Let's do some math with just functions!"
