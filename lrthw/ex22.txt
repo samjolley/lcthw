@@ -1,0 +1,25 @@
+All symbols and words used thus far in lrthw
+
+puts ""
+# 
+#{}
++
+-
+* 
+/
+=
+<
+>
+<=
+>=
+true
+false
+print
+%{}
+\n
+""" ... """"
+\t
+\\
+gets.chomp
+gets.chomp.to_i
+ARGV
